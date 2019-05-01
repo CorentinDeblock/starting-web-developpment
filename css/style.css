@@ -25,7 +25,7 @@
     text-align: left;
 }
 section p {
-    margin:0;
+    margin-top:20px;
 }
 body{
     background-color:#EBEBEB;
@@ -46,8 +46,11 @@ header p{
     font-weight: lighter;
     font-size:20px;
 }
-*{
+header,article{
     color: var(--color-title);
+}
+section li a,section li p{
+    color: #c1c1c1;
 }
 header,section,article{
     background-color:#FFFFFF;
@@ -83,7 +86,7 @@ header img{
     height: 130px;
 }
 header{
-    padding:20px;
+    padding:30px;
 }
 header p{
     text-align: left;
