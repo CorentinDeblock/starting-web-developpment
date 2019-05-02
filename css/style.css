@@ -4,6 +4,8 @@
 }
 :root{
     --color-title:#8D8F91;
+    --transition: color 0.5s;
+    --color-link:#515151;
 }
 .movie:nth-child(-n+3){
     margin-bottom:40px;
@@ -114,4 +116,30 @@ article{
 article h3{
     margin-bottom:60px;
     font-size:25px;
+}
+section a:hover{
+    color:var(--color-link);
+    transition: var(--transition);
+}
+section a:hover + p{
+    color:var(--color-link);
+    transition: var(--transition);
+}
+header a:hover{
+    animation: hoverAnim 2s linear infinite;
+}
+@keyframes hoverAnim{
+    0%{
+        padding:10px;
+        color:white;
+    }
+    50%{
+        padding:20px;
+        background-color: green;
+        color:red;
+    }100%{
+        padding:10px;
+        background-color: red;
+        color:white;
+    }
 }
