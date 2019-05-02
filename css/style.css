@@ -41,6 +41,7 @@ header h1{
 }
 header h2{
     margin-top:0px; 
+    font-weight: 500;
 }
 header p{
     font-weight: lighter;
@@ -61,6 +62,9 @@ header,section,article{
     grid-column-start: 2;
     border-radius: 3px;
     box-shadow: 0px 0px 2px 0px grey;
+}
+header strong{
+    font-weight:900;
 }
 ul{
     display: flex;
