@@ -49,6 +49,7 @@ header p{
     font-weight: lighter;
     font-size:20px;
 }
+
 header,article{
     color: var(--color-title);
 }
@@ -126,7 +127,7 @@ section a:hover + p{
     transition: var(--transition);
 }
 header a:hover{
-    animation: hoverAnim 2s linear infinite;
+    animation: hoverAnim 2s linear;
 }
 @keyframes hoverAnim{
     0%{
