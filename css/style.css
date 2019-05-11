@@ -27,7 +27,7 @@
 .movie p{
     text-align: left;
 }
-section p {
+nav p {
     margin-top:20px;
 }
 body{
@@ -57,10 +57,10 @@ header,article{
     background-color:#e1e1e1;
     color:var(--color-title);
 }
-section li a,section li p{
+nav li a,nav li p{
     color: #c1c1c1;
 }
-header,section,article{
+header,nav,article{
     background-color:#FFFFFF;
     grid-column-start: 2;
     border-radius: 3px;
@@ -104,7 +104,7 @@ header{
 header p{
     text-align: left;
 }
-section{
+nav{
     padding:40px;
 }
 article{
@@ -118,11 +118,11 @@ article h3{
     margin-bottom:60px;
     font-size:25px;
 }
-section a:hover{
+nav a:hover{
     color:var(--color-link);
     transition: var(--transition);
 }
-section a:hover + p{
+nav a:hover + p{
     color:var(--color-link);
     transition: var(--transition);
 }
