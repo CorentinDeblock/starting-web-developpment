@@ -8,6 +8,9 @@ Le fichier html comporte trois bloc
 
 ## Le bloc header
 
+Le bloc header contient la plupart des information ***importante***
+de Tim Berner-Lee, il doit donc être ***au-dessus de tout les autre contenu***
+
 ```html
 <img src="image/Tim-Berner.jpg" alt="Tim Berner">
 <h1>Tim Berners-lee</h1>
@@ -19,7 +22,7 @@ Le fichier html comporte trois bloc
 <a href="https://fr.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">See for yourself</a>
 ```
 
-Le header contient l'image de Tim-Berners Lee ainsi que son nom en
+Le header contient ***l'image de Tim-Berners*** Lee ainsi que son nom en
 h1 et ce qu'il a créer en h2.
 
 ```html
@@ -28,7 +31,7 @@ h1 et ce qu'il a créer en h2.
 <h2>Inventor of HTML</h2>
 ```
  
-Le p est un petit descriptif pour le présenter.
+Le p est ***un petit descriptif*** pour le présenter.
 
 ```html
 <p>
@@ -37,7 +40,7 @@ Le p est un petit descriptif pour le présenter.
 </p>
 ```
  
-Le lien qui redirige sur la page wikipedia de Tim Berners-Lee
+Le lien qui ***redirige sur la page wikipedia*** de Tim Berners-Lee
 
 ```html
 <a href="https://fr.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">See for yourself</a>
